@@ -2,6 +2,7 @@ package com.vfsglobal.wolf.androidstudiogithubsample;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -22,7 +23,7 @@ public class MainActivity extends Activity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Sample.", Toast.LENGTH_SHORT).show();
+                Log.e("TAG: ", "TAG: ");
             }
         });
 
